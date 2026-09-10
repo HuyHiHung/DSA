@@ -2,7 +2,9 @@ public class Solution {
     public IList<string> GenerateParenthesis(int n) {
         // điều kiện để hợp lệ? 
         // cứ liệt kê ra, trước lúc add thì thêm điều kiện
-        // có thể viết thêm 1 dòng để xóa bớt cái case 0, giảm 1 nửa độ phức tạp
+        // có thể viết thêm 1 dòng để xóa bớt cái case 0, giảm 1 nửa độ phức tạp => k ý nghĩa mấy
+
+        // hướng đi tối ưu hơn là đếm open close trước khi thêm vào, loại trực tiếp các nhánh sai, k cần check lại luôn
         if( n == 1) return ["()"];
         List<string> rs = new();
         string s = "()";
