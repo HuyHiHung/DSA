@@ -29,6 +29,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/HuyHiHung/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0006-zigzag-conversion](https://github.com/HuyHiHung/DSA/tree/master/0006-zigzag-conversion) |
 ## Dynamic Programming
 |  |
 | ------- |
