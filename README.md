@@ -21,6 +21,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/HuyHiHung/DSA/tree/master/0002-add-two-numbers) |
+| [0029-divide-two-integers](https://github.com/HuyHiHung/DSA/tree/master/0029-divide-two-integers) |
 ## Recursion
 |  |
 | ------- |
@@ -69,4 +70,8 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/HuyHiHung/DSA/tree/master/0022-generate-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0029-divide-two-integers](https://github.com/HuyHiHung/DSA/tree/master/0029-divide-two-integers) |
 <!---LeetCode Topics End-->
