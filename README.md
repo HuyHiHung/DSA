@@ -66,6 +66,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/HuyHiHung/DSA/tree/master/0053-maximum-subarray) |
+| [0191-number-of-1-bits](https://github.com/HuyHiHung/DSA/tree/master/0191-number-of-1-bits) |
 ## Backtracking
 |  |
 | ------- |
@@ -79,6 +80,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/HuyHiHung/DSA/tree/master/0029-divide-two-integers) |
+| [0191-number-of-1-bits](https://github.com/HuyHiHung/DSA/tree/master/0191-number-of-1-bits) |
 ## Prefix Sum
 |  |
 | ------- |
