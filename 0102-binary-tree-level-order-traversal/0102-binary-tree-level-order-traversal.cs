@@ -18,21 +18,20 @@ public class Solution {
         // tới 1 nút, add trái phải rồi mới đệ quy
         // điều kiện để tiến tới depth++ là đã hết nút ở depth
         if(root == null) return [];
-        List<int> list = new();
+        
         List<IList<int>> rs = new();
-        Queue<(TreeNode node, int depth)> q = new();
-        q.Enqueue((root, 0));
-        while (q.Count > 0){         
-            var item = q.Dequeue();
-            TreeNode node = item.node;
-            int depth = item.depth;
-            if (rs.Count <= depth)
-                rs.Add(new List<int>());
-
-            rs[depth].Add(item.node.val);
-            depth++;
-            if(node.left != null)  q.Enqueue((node.left, depth));
-            if(node.right != null) q.Enqueue((node.right, depth));
+        Queue<TreeNode> q = new();
+        q.Enqueue(root);
+        while (q.Count > 0){    
+            int levelSize = q.Count;
+            List<int> list = new(); 
+            for( int i = 0; i < levelSize; ++i){
+                TreeNode item = q.Dequeue();
+                list.Add(item.val);
+                if(item.left != null)  q.Enqueue(item.left);
+                if(item.right != null) q.Enqueue(item.right);
+            }
+            rs.Add(list);    
         }
         return rs; 
     }
