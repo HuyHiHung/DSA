@@ -12,38 +12,16 @@
  * }
  */
 public class Solution {
-
-    
-
-    public int max(TreeNode root){
-        while(root.right != null) {
-            root = root.right;
+    public bool Check(TreeNode root, long min, long max){
+        if( root == null) return true;
+        if( min >= root.val || root.val >= max){
+            return false;
         }
-        return root.val;
-    }
-    public int min(TreeNode root){
-        while(root.left != null) {
-            root = root.left;
-        }
-        return root.val;
+        return Check(root.left, min, root.val) && Check(root.right, root.val, max);
     }
     public bool IsValidBST(TreeNode root) {
-
-        // tại 1 node kiểm tra maximum của cây bên trái và minimum bên phải
-        // cần 1 hàm trả về maximum và minimum 
-        // kiem tra val left < curr < right
-        // hoặc tại 1 node kiểm tra giá trị node trái và phải sau đó đệ quy xuống? => bug: nếu như 5->7, 4<-7 => sai
-
-
-        if(root == null) return true;
-        if(root.right != null){
-            if( root.right.val <= root.val || root.val >= min(root.right)) return false;
-        }
-        if(root.left != null){
-            if( root.left.val >= root.val || max(root.left) >= root.val ) return false;
-        }
-        return IsValidBST(root.left) && IsValidBST(root.right);
-        return true;
+        return Check(root, long.MinValue, long.MaxValue);
         
     }
+    
 }
