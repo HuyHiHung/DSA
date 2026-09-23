@@ -14,10 +14,6 @@ public class Solution {
         if(p.val > q.val) return LowestCommonAncestor(root, q,p);
         if( p.val > root.val) return LowestCommonAncestor(root.right,q,p);
         if( q.val < root.val) return LowestCommonAncestor(root.left,q,p);
-        // if( q.val == root.val || p.val == root.val) return root;
-        if(p.val <= root.val && root.val <= q.val ){
-            return root;
-        }
         return root;
     }
 }
