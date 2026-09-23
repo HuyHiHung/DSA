@@ -46,6 +46,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/HuyHiHung/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/HuyHiHung/DSA/tree/master/0022-generate-parentheses) |
 | [0208-implement-trie-prefix-tree](https://github.com/HuyHiHung/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HuyHiHung/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -113,6 +114,7 @@
 | [0100-same-tree](https://github.com/HuyHiHung/DSA/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/HuyHiHung/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/HuyHiHung/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HuyHiHung/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/HuyHiHung/DSA/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/HuyHiHung/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Breadth-First Search
@@ -155,8 +157,10 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/HuyHiHung/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HuyHiHung/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Trie
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/HuyHiHung/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/HuyHiHung/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
