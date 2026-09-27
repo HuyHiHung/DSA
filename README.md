@@ -20,6 +20,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/HuyHiHung/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/HuyHiHung/DSA/tree/master/0141-linked-list-cycle) |
 | [0208-implement-trie-prefix-tree](https://github.com/HuyHiHung/DSA/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/HuyHiHung/DSA/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
@@ -54,6 +55,7 @@
 | [0022-generate-parentheses](https://github.com/HuyHiHung/DSA/tree/master/0022-generate-parentheses) |
 | [0208-implement-trie-prefix-tree](https://github.com/HuyHiHung/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/HuyHiHung/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0242-valid-anagram](https://github.com/HuyHiHung/DSA/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -74,6 +76,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HuyHiHung/DSA/tree/master/0015-3sum) |
+| [0242-valid-anagram](https://github.com/HuyHiHung/DSA/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
 |  |
 | ------- |
